@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkblue;
+    height: 100vh;
+}
+
+main {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+    border-radius: 15px;
+    padding:20px;
+    box-shadow: 0px 0px 25px 13px rgba(0, 255, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255,255,255,0.7);
+}
